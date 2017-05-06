@@ -10,6 +10,18 @@ package Tokens;
  * @author arser
  */
 public abstract class Token {
+    
     public int x;
     public int y;
+    
+    
+    public int espaciosAtras = 0;
+    public int espaciosDerecha = 0;
+    public int espaciosAdelante = 2;
+    public int espaciosIzquierda = 0;
+    public int diagDerAdel = 0;
+    public int diagIzqAdel = 0;
+    
+    
+
 }
