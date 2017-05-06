@@ -3,19 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package juegos;
+package Piezas;
 
 /**
  *
  * @author arser
  */
-public class Juegos {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-    }
-    
+public abstract class Ficha {
+    public int x;
+    public int y;
 }
