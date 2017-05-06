@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Piezas;
+package Tokens;
 
 /**
  *
  * @author arser
  */
-public abstract class Ficha {
+public abstract class Token {
     public int x;
     public int y;
 }
